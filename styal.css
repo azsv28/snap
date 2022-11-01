@@ -1,0 +1,165 @@
+*{
+ box-sizing: 0;
+ padding: 0;
+ margin: 0;
+}
+body{
+ max-width: 1440px;
+ background-color: hsl(0, 0%, 98%);
+ font-family: 'Epilogue', sans-serif;
+ 
+}
+header{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 25px 25px 25px 19px;
+}
+h1{
+ font-size: 70px;
+}
+nav{
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+li{
+ cursor: pointer;
+ list-style: none;
+ color:  hsl(0, 0%, 41%);
+ font-size: 15px;
+ gap: 10px;
+ display: flex;
+}
+
+p{
+ font-size: 25px;
+ color:  hsl(0, 0%, 41%);
+ position: relative;
+ top: 40px;
+}
+.principal{
+ display: flex;
+ list-style: none;
+ gap: 1.5rem;
+}
+.nav-obcion > li{
+ padding: 1rem 0;
+ position: relative;
+}
+#nada{
+ color: hsl(0, 0%, 41%);
+ cursor: default;
+}
+.obciones{
+ position: absolute;
+ top: 3.2rem;
+ border: 1px solid white;
+ border-radius: 10px;
+ background-color: white;
+ padding: .5rem;
+ width: 100px;
+ display: none;
+ flex-direction: column;
+ gap: .7rem;
+}
+.lista:hover > .obciones{
+ display: flex;
+ flex-direction: column;
+}
+img{
+ transition: all .2s;
+}
+.flecha:hover >.imagenfle{
+content: url(./imagenes/icon-arrow-up.svg);
+}
+
+.lista > samp{
+ display: flex;
+ align-items: center;
+ gap: .3rem;
+}
+li:hover{
+ color: black;
+}
+
+.segundo{
+ margin-left: 111px;
+
+}
+.medio{
+ align-items: center;
+ display: flex;
+}
+.imagen{
+ margin: auto;
+ position: relative;
+ width: auto;
+ height: auto;
+ left: 5px;
+ top: auto;
+}
+.caja{
+ color: hsl(0, 0%, 41%);
+ border: 2px solid hsl(0, 0%, 41%);
+ border-radius: 10px;
+ padding: 5px;
+}
+
+.caja2{
+ color: hsl(0, 0%, 41%);
+ border: 2px;
+ border-radius: 10px;
+ padding: 5px;
+}
+#registro{
+ align-self: flex-start;
+ display: flex;
+ list-style: none;
+ gap: 1rem;
+ margin: 0 0 0 800px;
+}
+#espacio{
+ margin: 0 0 0 30px;
+}
+.boton{
+ cursor: pointer;
+ border: 2px solid hsl(0, 0%, 8%);
+ background-color: hsl(0, 0%, 8%);
+ border-radius: 10px;
+ color: white;
+ text-align: center;
+ align-items: center;
+ height: 35px;
+ width: 161px;
+ display: flex;
+ position: relative;
+ top: 50px;
+}
+.posision{
+ position: relative;
+ top: 150px;
+ gap: 2rem;
+ display: flex;
+}
+.titulo{
+ position: relative;
+ top: -80px;
+}
+h2{
+ font-size: 20px;
+ margin: auto;
+}
+#lis1{
+ left: 92px;
+}
+#lis2{
+ width: 70px;
+}
+.boton:hover {
+ background-color: white;
+ 
+}
+.boton:hover > h2{
+color: black;
+}
